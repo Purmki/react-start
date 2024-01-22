@@ -1,0 +1,59 @@
+form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  
+  button {
+    background-color: #4caf50;
+    color: rgb(79, 74, 74);
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the select element on hover */
+  select:hover {
+    border-color: #999;
+  }
+  
+  /* Style for the select element when focused */
+  select:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.7);
+  }
