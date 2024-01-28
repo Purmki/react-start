@@ -1,0 +1,102 @@
+
+body{
+    background-image: url("https://st4.depositphotos.com/10325396/20155/i/450/depositphotos_201554746-stock-photo-double-exposure-image-stock-market.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.worldDiv {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f1f1;
+    padding: 20px;
+    width: 800px;
+   
+    
+  }
+  
+  .bigDiv {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .basicInfoCont {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+  }
+  
+  .basicInfoCont li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .basicInfoCont p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  button {
+    background-color: #3e4755;
+    color: #180e0e;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3367d6;
+  }
+  
+  .linkButton {
+    text-decoration: none;
+  }
+  
+  .linkButton button {
+    background-color: #0f9d58;
+  }
+  
+  .linkButton button:hover {
+    background-color: #0a8041;
+  }
+  
+  .learnMoreButton {
+    background-color: #4285f4;
+    color: #141313;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learnMoreButton:hover {
+    background-color: #3367d6;
+  }
+  
+  .noData {
+    color: #777;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
