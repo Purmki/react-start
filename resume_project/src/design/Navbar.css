@@ -1,0 +1,18 @@
+nav {
+    background-color: #080707; /* Set the background color */
+    padding: 10px; /* Add some padding to the navigation menu */
+}
+
+/* Style for the individual links */
+nav a {
+    color: white; /* Set the text color */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 15px; /* Add some spacing between links */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Hover effect for links */
+nav a:hover {
+    text-decoration: underline; 
+}
+

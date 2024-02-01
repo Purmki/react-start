@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.worldDiv {
+    /* position: absolute; */
+    top: 450px;
+}
+
+
+.TemplateCard {
+    width: 700px;
+    border: 1px solid #0e0b0b;
+    border-radius: 8px;
+    /* overflow: hidden; */
+    margin: 20px;
+    /* position: relative; */
+    height: 800px;
+    right: 200px;
+    
+}
+
+
+.topCard {
+    /* position: relative; */
+    background-color: #bdb0b0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    height: 200px;
+}
+
+
+.niceStupidLogo {
+    width: 90px;
+
+    border-radius: 50%;
+}
+
+
+.cardWall {
+    /* position: relative; */
+ 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.sideWallRight {
+    height: 220px;
+    padding: 10px;
+    border-bottom: black solid;
+    text-align: center;
+
+}
+
+.buttonSection {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.experienceInfo {
+    text-align: center;
+    margin-top: 50px;
+    border-color: rgb(167, 144, 114);
+    border-width: 2px;
+    right: 12px;
+    border: dotted;
+    padding: 3px;
+    width: 450px;
+    
+    
+    
+
+}
+
+.sideWallLeft {
+    display: flex;
+}
+
+.leftSideContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

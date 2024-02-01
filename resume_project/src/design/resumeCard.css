@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container Styles */
+  .firstHalf {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+  }
+  
+  /* Resume Card Styles */
+  .resume-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-card-without-btn {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .holder {
+    margin-bottom: 10px;
+  }
+  
+  /* Work Experience Styles */
+  .ExperienceHolder {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
+  .experienceInfo {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Button Holder Styles */
+  .buttonHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  /* Delete Button Styles */
+  button {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Download Button Styles */
+  .btnLoader {
+    background-color: #5bc0de;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .btnLoader span {
+    margin-left: 5px;
+  }
+  
+  /* Hover Effect for Buttons */
+  button:hover,
+  .btnLoader:hover {
+    opacity: 0.8;
+  }

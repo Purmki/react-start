@@ -19,7 +19,6 @@ export default function ThemeProvider({children}) {
     }
     const [selectedTheme, setSelectedTheme]=useState(lightModeColors)
     const toggleDarkMode = () => {
-        console.log(".khj,kjk,jkjkjgjh");
         setSelectedTheme(isDarkMode? lightModeColors : darkModeColors)
         setIsDarkMode(!isDarkMode)
     }

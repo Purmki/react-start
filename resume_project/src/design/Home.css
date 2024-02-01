@@ -1,0 +1,148 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ebe5e5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: none;
+    
+    justify-content: center;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: rgb(51, 48, 48);
+    border: black;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e3e5e9;
+  }
+
+  .homeView {
+    display: flex;
+    height: 100vh;
+    flex-direction: row-reverse;
+}
+
+
+.homeText {
+    text-align: left; 
+}
+
+.resumeGif {
+    max-width: 95%; 
+    border-radius: 8px; 
+    padding: 10px;
+    
+}
+
+.HomeWorld{
+  padding: 40px;
+}
+
+.bigButton {
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bigButton:hover {
+  background-color: #2980b9;
+}
+
+.text{
+  padding: 15px;
+  text-align: left;
+}
+
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-track {
+  display: flex;
+  animation: slideAnimation 9s infinite; /* Adjust the duration as needed */
+}
+
+.slider-slide {
+  flex: 0 0 100%;
+  height: 45px; /* Adjust the height as needed */
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+#img1 {
+  background-image: url('https://www.mintformations.co.uk/blog/wp-content/uploads/2020/05/shutterstock_583717939.jpg');
+}
+
+#img2 {
+  background-image: url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/company-logo-design-template-e089327a5c476ce5c70c74f7359c5898_screen.jpg?ts=1672291305');
+}
+
+#img3 {
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/008/214/517/small_2x/abstract-geometric-logo-or-infinity-line-logo-for-your-company-free-vector.jpg');
+}
+
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  33.33% {
+    transform: translateX(-100%);
+  }
+  66.66% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slider-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.slider-dot.active {
+  background-color: #555;
+}
